@@ -25,15 +25,16 @@ dependencies. So the only build step is the optional creation of a zip file
 that bundles everything for easy installation into Blender.
 
 The primary dependency is the python-qrcode_ library. Version 4.0.4 or newer is
-strongly recommended for correctness; 5.0.1 is recommended for speed.  It is
-linked in `deps/python-qrcode` as a git submodule. This library requires six_;
-since that's a single file and doesn't use git, it's reproduced in full in
-`deps/six.py`. Note that `python-qrcode` also normally requires `pillow`, but
-that's not needed here as the addon doesn't use that part of the code.
+strongly recommended for correctness; 5.0.1 is recommended for speed. It is
+linked in ``deps/python-qrcode`` as a git submodule. This library requires
+six_; since that's a single file and doesn't use git, it's reproduced in full
+in ``deps/six.py``. Note that ``python-qrcode`` also normally requires
+``pillow``, but that's not needed here as the addon doesn't use that part of
+the code.
 
-Once the dependencies are in place in `deps`, update the version comments in
-`bundle_hdr.py` if necessary, then run `./bundle.sh` which will produce
-`add_mesh_local_qrcode.zip`.
+Once the dependencies are in place in ``deps``, update the version comments in
+``bundle_hdr.py`` if necessary, then run ``./bundle.sh`` which will produce
+``add_mesh_local_qrcode.zip``.
 
 .. _python-qrcode: https://pypi.python.org/pypi/qrcode
 .. _six: https://pypi.python.org/pypi/six
@@ -45,7 +46,7 @@ From the bundled zip file
 -------------------------
 
 In Blender, select File > User Preferences, Addons tab, Install from File
-button. Navigate to `add_mesh_local_qrcode.zip` and install it. It should now
+button. Navigate to ``add_mesh_local_qrcode.zip`` and install it. It should now
 be listed as "Add Mesh: Local QR Code" under the "Add Mesh" category. Click the
 checkbox on the right to enable it, and "Save User Settings" if you want it
 enabled every time you run Blender.
@@ -55,7 +56,7 @@ Using shared libraries
 
 If your Blender is using a system-wide Python installation (e.g. from a Linux
 distribution), you can install the dependencies in a standard Python 3
-location, then install only `add_mesh_local_qrcode.py` in your Blender addons
+location, then install only ``add_mesh_local_qrcode.py`` in your Blender addons
 directory as above.
 
 Usage
