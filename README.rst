@@ -31,8 +31,9 @@ since that's a single file and doesn't use git, it's reproduced in full in
 `deps/six.py`. Note that `python-qrcode` also normally requires `pillow`, but
 that's not needed here as the addon doesn't use that part of the code.
 
-Once the dependencies are in place in `deps`, run `./bundle.sh`, which will
-produce `add_mesh_local_qrcode.zip`.
+Once the dependencies are in place in `deps`, update the version comments in
+`bundle_hdr.py` if necessary, then run `./bundle.sh` which will produce
+`add_mesh_local_qrcode.zip`.
 
 .. _python-qrcode: https://pypi.python.org/pypi/qrcode
 .. _six: https://pypi.python.org/pypi/six
@@ -82,7 +83,7 @@ product to be able to scan the code.
 Support
 =======
 
-Email me: jwelsh+blender@welshcomputing.com
+Email me: jwelsh@welshcomputing.com
 
 Report a bug: https://github.com/welshjf/blender-local-qrcode/issues
 
