@@ -1,0 +1,3 @@
+[submodule "deps/python-qrcode"]
+	path = deps/python-qrcode
+	url = https://github.com/lincolnloop/python-qrcode.git
