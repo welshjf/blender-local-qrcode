@@ -1,8 +1,8 @@
-=====================================
-Local QR Code Generator Blender Addon
-=====================================
+=============================
+QR Code Generator for Blender
+=============================
 
-Generate QR code meshes directly in Blender, with no need for an external
+Blender addon for generating QR code meshes, with no need for an external
 program or web service.
 
 By Jacob Welsh
@@ -10,6 +10,8 @@ By Jacob Welsh
 License: MIT/X11
 
 Minimum required Blender version: 2.65
+
+Home page: http://www.eemta.org/code/blender-local-qrcode.html
 
 Blender Addons Catalog page (hopefully...):
 http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Local_QR_Code_Generator
@@ -62,7 +64,7 @@ directory as above.
 Usage
 =====
 
-Add a new code through Add > Mesh > Local QR Code. It will be created in the XY
+Add a new code through Add > Mesh > QR Code. It will be created in the XY
 plane, oriented for scanning from the top. Once added, you can control the
 following from the operator properties box in the tool shelf (the mesh will
 update immediately):
