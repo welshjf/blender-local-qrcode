@@ -25,10 +25,10 @@ bl_info = {
     "description": "Add a QR code mesh. Generates codes locally using \
 python-qrcode, not a web service.",
     "author": "Jacob Welsh",
-    "version": (1, 0),
+    "version": (1, 1),
     "blender": (2, 65, 0),
     "location": "View3D > Add > Mesh > Local QR Code",
-    #"wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Local_QR_Code_Generator",
+    "wiki_url": "http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Local_QR_Code_Generator",
     "category": "Add Mesh"
 }
 

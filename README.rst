@@ -13,7 +13,7 @@ Minimum required Blender version: 2.65
 
 Home page: http://www.eemta.org/code/qrcode.html
 
-Blender Addons Catalog page (hopefully...):
+Blender Addons Catalog page:
 http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Local_QR_Code_Generator
 
 General information on addons:
